@@ -103,9 +103,9 @@ namespace AngleEstimation
             this.ResultGuessDisplay.AutoSize = true;
             this.ResultGuessDisplay.Location = new System.Drawing.Point(220, 282);
             this.ResultGuessDisplay.Name = "ResultGuessDisplay";
-            this.ResultGuessDisplay.Size = new System.Drawing.Size(54, 13);
+            this.ResultGuessDisplay.Size = new System.Drawing.Size(17, 13);
             this.ResultGuessDisplay.TabIndex = 3;
-            this.ResultGuessDisplay.Text = "0 degrees";
+            this.ResultGuessDisplay.Text = "0°";
             // 
             // label3
             // 
@@ -174,9 +174,9 @@ namespace AngleEstimation
             this.ResultActualDisplay.AutoSize = true;
             this.ResultActualDisplay.Location = new System.Drawing.Point(220, 269);
             this.ResultActualDisplay.Name = "ResultActualDisplay";
-            this.ResultActualDisplay.Size = new System.Drawing.Size(54, 13);
+            this.ResultActualDisplay.Size = new System.Drawing.Size(17, 13);
             this.ResultActualDisplay.TabIndex = 13;
-            this.ResultActualDisplay.Text = "0 degrees";
+            this.ResultActualDisplay.Text = "0°";
             // 
             // label7
             // 
@@ -194,9 +194,9 @@ namespace AngleEstimation
             this.ResultErrorDisplay.AutoSize = true;
             this.ResultErrorDisplay.Location = new System.Drawing.Point(220, 295);
             this.ResultErrorDisplay.Name = "ResultErrorDisplay";
-            this.ResultErrorDisplay.Size = new System.Drawing.Size(54, 13);
+            this.ResultErrorDisplay.Size = new System.Drawing.Size(17, 13);
             this.ResultErrorDisplay.TabIndex = 14;
-            this.ResultErrorDisplay.Text = "0 degrees";
+            this.ResultErrorDisplay.Text = "0°";
             // 
             // DrawingPanel
             // 

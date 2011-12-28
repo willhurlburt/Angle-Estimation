@@ -66,13 +66,13 @@ namespace AngleEstimation
             GuessBox.Text = string.Empty;
 
             int error = Math.Abs(currentAngle - guess);
-            ResultActualDisplay.Text = currentAngle.ToString();
-            ResultGuessDisplay.Text = guess.ToString();
-            ResultErrorDisplay.Text = error.ToString();
+            ResultActualDisplay.Text = currentAngle.ToString() + "°";
+            ResultGuessDisplay.Text = guess.ToString() + "°";
+            ResultErrorDisplay.Text = error.ToString() + "°";
             
             errorHistory.Add(error);
             GuessCountDisplay.Text = errorHistory.Count.ToString();
-            AverageErrorDisplay.Text = (errorHistory.Sum() / errorHistory.Count).ToString();
+            AverageErrorDisplay.Text = (errorHistory.Sum() / errorHistory.Count).ToString() + "°";
 
             ShowNewAngle();
         }
