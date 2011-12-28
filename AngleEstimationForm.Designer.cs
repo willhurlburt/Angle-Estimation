@@ -271,6 +271,7 @@ namespace AngleEstimation
             this.Controls.Add(this.GuessBox);
             this.MinimumSize = new System.Drawing.Size(390, 390);
             this.Name = "AngleEstimationForm";
+            this.ShowIcon = false;
             this.Text = "Angle Estimation";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
