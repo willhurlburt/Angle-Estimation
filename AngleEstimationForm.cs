@@ -38,6 +38,8 @@ namespace AngleEstimation
         private int currentRotation = 0;
         private List<int> errorHistory = new List<int>();
 
+        private AboutForm about = new AboutForm();
+
         public AngleEstimationForm()
         {
             InitializeComponent();
@@ -128,6 +130,11 @@ namespace AngleEstimation
         private void MaxAngleCheck_CheckedChanged(object sender, EventArgs e)
         {
             ShowNewAngle();
+        }
+
+        private void AboutButton_Click(object sender, EventArgs e)
+        {
+            about.ShowDialog();
         }
     }
 }

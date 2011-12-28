@@ -65,20 +65,21 @@ namespace AngleEstimation
             this.AxisCheck = new System.Windows.Forms.CheckBox();
             this.RotateCheck = new System.Windows.Forms.CheckBox();
             this.MaxAngleCheck = new System.Windows.Forms.CheckBox();
+            this.AboutButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GuessBox
             // 
             this.GuessBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.GuessBox.Location = new System.Drawing.Point(101, 227);
+            this.GuessBox.Location = new System.Drawing.Point(177, 242);
             this.GuessBox.Name = "GuessBox";
-            this.GuessBox.Size = new System.Drawing.Size(100, 20);
+            this.GuessBox.Size = new System.Drawing.Size(104, 20);
             this.GuessBox.TabIndex = 0;
             // 
             // GuessButton
             // 
             this.GuessButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.GuessButton.Location = new System.Drawing.Point(207, 225);
+            this.GuessButton.Location = new System.Drawing.Point(287, 241);
             this.GuessButton.Name = "GuessButton";
             this.GuessButton.Size = new System.Drawing.Size(75, 23);
             this.GuessButton.TabIndex = 1;
@@ -90,7 +91,7 @@ namespace AngleEstimation
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 276);
+            this.label1.Location = new System.Drawing.Point(174, 294);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 13);
             this.label1.TabIndex = 2;
@@ -100,7 +101,7 @@ namespace AngleEstimation
             // 
             this.ResultGuessDisplay.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ResultGuessDisplay.AutoSize = true;
-            this.ResultGuessDisplay.Location = new System.Drawing.Point(176, 264);
+            this.ResultGuessDisplay.Location = new System.Drawing.Point(220, 282);
             this.ResultGuessDisplay.Name = "ResultGuessDisplay";
             this.ResultGuessDisplay.Size = new System.Drawing.Size(54, 13);
             this.ResultGuessDisplay.TabIndex = 3;
@@ -110,7 +111,7 @@ namespace AngleEstimation
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(98, 324);
+            this.label3.Location = new System.Drawing.Point(174, 322);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 4;
@@ -120,7 +121,7 @@ namespace AngleEstimation
             // 
             this.GuessCountDisplay.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.GuessCountDisplay.AutoSize = true;
-            this.GuessCountDisplay.Location = new System.Drawing.Point(155, 324);
+            this.GuessCountDisplay.Location = new System.Drawing.Point(231, 322);
             this.GuessCountDisplay.Name = "GuessCountDisplay";
             this.GuessCountDisplay.Size = new System.Drawing.Size(13, 13);
             this.GuessCountDisplay.TabIndex = 5;
@@ -130,7 +131,7 @@ namespace AngleEstimation
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(204, 324);
+            this.label5.Location = new System.Drawing.Point(250, 322);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 13);
             this.label5.TabIndex = 6;
@@ -140,7 +141,7 @@ namespace AngleEstimation
             // 
             this.AverageErrorDisplay.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.AverageErrorDisplay.AutoSize = true;
-            this.AverageErrorDisplay.Location = new System.Drawing.Point(285, 324);
+            this.AverageErrorDisplay.Location = new System.Drawing.Point(331, 322);
             this.AverageErrorDisplay.Name = "AverageErrorDisplay";
             this.AverageErrorDisplay.Size = new System.Drawing.Size(13, 13);
             this.AverageErrorDisplay.TabIndex = 7;
@@ -149,7 +150,7 @@ namespace AngleEstimation
             // ResetButton
             // 
             this.ResetButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.ResetButton.Location = new System.Drawing.Point(6, 319);
+            this.ResetButton.Location = new System.Drawing.Point(93, 317);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(75, 23);
             this.ResetButton.TabIndex = 8;
@@ -161,7 +162,7 @@ namespace AngleEstimation
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(130, 263);
+            this.label4.Location = new System.Drawing.Point(174, 281);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 10;
@@ -171,7 +172,7 @@ namespace AngleEstimation
             // 
             this.ResultActualDisplay.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ResultActualDisplay.AutoSize = true;
-            this.ResultActualDisplay.Location = new System.Drawing.Point(176, 251);
+            this.ResultActualDisplay.Location = new System.Drawing.Point(220, 269);
             this.ResultActualDisplay.Name = "ResultActualDisplay";
             this.ResultActualDisplay.Size = new System.Drawing.Size(54, 13);
             this.ResultActualDisplay.TabIndex = 13;
@@ -181,7 +182,7 @@ namespace AngleEstimation
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(130, 250);
+            this.label7.Location = new System.Drawing.Point(174, 268);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 12;
@@ -191,7 +192,7 @@ namespace AngleEstimation
             // 
             this.ResultErrorDisplay.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.ResultErrorDisplay.AutoSize = true;
-            this.ResultErrorDisplay.Location = new System.Drawing.Point(176, 277);
+            this.ResultErrorDisplay.Location = new System.Drawing.Point(220, 295);
             this.ResultErrorDisplay.Name = "ResultErrorDisplay";
             this.ResultErrorDisplay.Size = new System.Drawing.Size(54, 13);
             this.ResultErrorDisplay.TabIndex = 14;
@@ -203,9 +204,10 @@ namespace AngleEstimation
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.DrawingPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.DrawingPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.DrawingPanel.Location = new System.Drawing.Point(12, 12);
             this.DrawingPanel.Name = "DrawingPanel";
-            this.DrawingPanel.Size = new System.Drawing.Size(350, 207);
+            this.DrawingPanel.Size = new System.Drawing.Size(350, 223);
             this.DrawingPanel.TabIndex = 15;
             this.DrawingPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.DrawingPanel_Paint);
             this.DrawingPanel.Resize += new System.EventHandler(this.DrawingPanel_Resize);
@@ -214,7 +216,7 @@ namespace AngleEstimation
             // 
             this.AxisCheck.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.AxisCheck.AutoSize = true;
-            this.AxisCheck.Location = new System.Drawing.Point(12, 229);
+            this.AxisCheck.Location = new System.Drawing.Point(12, 245);
             this.AxisCheck.Name = "AxisCheck";
             this.AxisCheck.Size = new System.Drawing.Size(75, 17);
             this.AxisCheck.TabIndex = 16;
@@ -226,7 +228,7 @@ namespace AngleEstimation
             // 
             this.RotateCheck.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.RotateCheck.AutoSize = true;
-            this.RotateCheck.Location = new System.Drawing.Point(12, 252);
+            this.RotateCheck.Location = new System.Drawing.Point(12, 268);
             this.RotateCheck.Name = "RotateCheck";
             this.RotateCheck.Size = new System.Drawing.Size(58, 17);
             this.RotateCheck.TabIndex = 17;
@@ -238,7 +240,7 @@ namespace AngleEstimation
             // 
             this.MaxAngleCheck.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.MaxAngleCheck.AutoSize = true;
-            this.MaxAngleCheck.Location = new System.Drawing.Point(12, 275);
+            this.MaxAngleCheck.Location = new System.Drawing.Point(12, 291);
             this.MaxAngleCheck.Name = "MaxAngleCheck";
             this.MaxAngleCheck.Size = new System.Drawing.Size(57, 17);
             this.MaxAngleCheck.TabIndex = 18;
@@ -246,13 +248,26 @@ namespace AngleEstimation
             this.MaxAngleCheck.UseVisualStyleBackColor = true;
             this.MaxAngleCheck.CheckedChanged += new System.EventHandler(this.MaxAngleCheck_CheckedChanged);
             // 
+            // AboutButton
+            // 
+            this.AboutButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.AboutButton.Location = new System.Drawing.Point(12, 317);
+            this.AboutButton.Name = "AboutButton";
+            this.AboutButton.Size = new System.Drawing.Size(75, 23);
+            this.AboutButton.TabIndex = 19;
+            this.AboutButton.Text = "About...";
+            this.AboutButton.UseVisualStyleBackColor = true;
+            this.AboutButton.Click += new System.EventHandler(this.AboutButton_Click);
+            // 
             // AngleEstimationForm
             // 
             this.AcceptButton = this.GuessButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 353);
+            this.ClientSize = new System.Drawing.Size(374, 352);
+            this.Controls.Add(this.AboutButton);
             this.Controls.Add(this.MaxAngleCheck);
+            this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.RotateCheck);
             this.Controls.Add(this.AxisCheck);
             this.Controls.Add(this.DrawingPanel);
@@ -260,7 +275,6 @@ namespace AngleEstimation
             this.Controls.Add(this.ResultActualDisplay);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.AverageErrorDisplay);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.GuessCountDisplay);
@@ -298,6 +312,7 @@ namespace AngleEstimation
         private System.Windows.Forms.CheckBox AxisCheck;
         private System.Windows.Forms.CheckBox RotateCheck;
         private System.Windows.Forms.CheckBox MaxAngleCheck;
+        private System.Windows.Forms.Button AboutButton;
     }
 }
 
